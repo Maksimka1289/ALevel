@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALevel HW18", "ALevel HW18.csproj", "{48D36807-0948-4A85-8472-95ABD87CF3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D36807-0948-4A85-8472-95ABD87CF3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D36807-0948-4A85-8472-95ABD87CF3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D36807-0948-4A85-8472-95ABD87CF3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D36807-0948-4A85-8472-95ABD87CF3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF04022-A68F-4686-807F-061E769B123A}
+	EndGlobalSection
+EndGlobal
