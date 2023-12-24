@@ -1,0 +1,20 @@
+use AdventureWorks2022
+--1
+select * from Sales.Customer
+--2
+select * from Sales.Store order by [Name]
+--3
+select top 10 * from HumanResources.Employee where BirthDate > '1989-09-28'
+--4
+select NationalIdNumber, LoginID, JobTitle from HumanResources.Employee
+where LoginID like '%0' order by JobTitle
+--5
+select * from Person.Person where ModifiedDate between '2008-01-01' and '2009-01-01' and MiddleName is not null and Title is null
+
+-- 6 без jion мабуть також не зробити
+
+--7
+SELECT TerritoryID, SUM(CommissionPct) AS TotalCommission
+FROM Sales.SalesPerson
+WHERE CommissionPct > 0
+GROUP BY TerritoryID;
